@@ -3,7 +3,8 @@ static const Block blocks[] = {
     /*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
     {"☀", "xbacklight | sed 's/\\..*//'",		    		0,		10},
-    {" ", "date +\"%A %d %b %Y %H:%M\"",					60,		0},
+    {"", "battery",                     					5,		3},
+    {" ", "date +\"%A %d %b %Y %H:%M\"",					60,		1},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
