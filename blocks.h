@@ -2,6 +2,7 @@
 static const Block blocks[] = {
     /*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
+    {"📦", "xbps-install -Mun | wc -l",		    		    60 * 60,5},
     {"☀", "xbacklight | sed 's/\\..*//'",		    		0,		4},
     {"", "battery",                     					5,		3},
     {"🔊", "volume",                   				    	0,		2},
