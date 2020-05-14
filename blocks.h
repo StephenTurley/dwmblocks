@@ -2,11 +2,11 @@
 static const Block blocks[] = {
     /*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
-    {"📦", "xbps-install -Mun | wc -l",		    		    60 * 60,5},
-    {"☀", "xbacklight | sed 's/\\..*//'",		    		0,		4},
-    {"", "battery",                     					5,		3},
-    {"🔊", "volume",                   				    	0,		2},
-    {" ", "date +\"%A %d %b %Y %H:%M\"",					60,		1},
+    {"", "packages",		    		    60 * 60,5},
+    {"", "backlight",   		    		0,		4},
+    {"", "battery",        					5,		3},
+    {"", "volume",    				    	0,		2},
+    {"", "datestatus",  					60,		1},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
