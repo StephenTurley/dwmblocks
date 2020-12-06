@@ -1,7 +1,8 @@
 PREFIX ?= /usr/local
+CC ?= gcc
 
 output: dwmblocks.c blocks.h
-	cc `pkg-config --cflags x11` `pkg-config --libs x11` dwmblocks.c -o dwmblocks
+	${CC} `pkg-config --cflags x11 --libs x11` dwmblocks.c -lX11 -o dwmblocks
 clean:
 	rm -f *.o *.gch dwmblocks
 install: output
