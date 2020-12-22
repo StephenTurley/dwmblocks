@@ -4,8 +4,8 @@ static const Block blocks[] = {
 
     /* {"", "packages",		  		    60 * 10,5}, */
     /* {"", "backlight",   	    		0,		4}, */
-    /* {"", "packages",		   		    60 * 10,2}, */
     /* {"", "battery",     				5,		3}, */
+    {"", "packages",		   		    60 * 10,2},
     {"", "crypto_prices",	   		    60 * 5, 3},
     {"", "temps",      		    	    30,		2},
     {"", "datestatus",  				60,		1},
