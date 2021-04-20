@@ -4,11 +4,11 @@ static const Block blocks[] = {
 
     /* {"", "packages",		  		    60 * 10,5}, */
     /* {"", "backlight",   	    		0,		4}, */
-    /* {"", "battery",     				5,		3}, */
-    {"", "packages",		   		    60 * 10,4},
+    {"", "viewers",     				    30,		  5},
+    {"", "packages",		   		      60 * 10,4},
     {"", "crypto_prices",	   		    60 * 10,3},
     {"", "temps",      		    	    30,		2},
-    {"", "datestatus",  				60,		1},
+    {"", "datestatus",  				    60,		1},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
